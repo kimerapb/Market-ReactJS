@@ -10,7 +10,7 @@ import Card from './Components/Card';
 
 function App() {
 
-  let nombre =  "luis  Eduardo Rodriguex 25 Febrero"
+  let nombre =  "luis Eduardo Rodriguez"
 
   //muestros (estados de App)
   let text = 'Clase #3 de ReactJS'

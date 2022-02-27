@@ -30,6 +30,17 @@ git checkout -b "rama-v3"
 // para cambiarse de rama  "rama" es la rama a donde voy a ir
 git checkout rama
 
+//unir ramas por ejemplo estoy en la rama-v2 y le uno la rama-v3
+
+git merge rama-v3
+
+//borrar la rama "rama-v3" es el nombre de la rama que voy a borrar.
+git branch -d rama-v3 
+
+
+//git pull
+git pull
+
 // para escribir  -- i.     w = write q = salir ! = para realizarlo
 // para salir tecla_escape + :wq! para que lo cambie
 
