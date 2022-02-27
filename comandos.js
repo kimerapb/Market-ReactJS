@@ -41,6 +41,12 @@ git branch -d rama-v3
 //git pull
 git pull
 
+//git push sirve para subir a gitub
+git push
+
+//sirve para subir la rama a github
+git push --set-upstream origin v3
+
 // para escribir  -- i.     w = write q = salir ! = para realizarlo
 // para salir tecla_escape + :wq! para que lo cambie
 
