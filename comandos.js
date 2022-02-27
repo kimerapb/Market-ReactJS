@@ -20,10 +20,14 @@ git checkout -- .
 // parra arreglas el nombre del ultimo commit
 git commit --amend
 
+//sirve para ver todas las ramas
+git branch
+
+
 //CREAMOS UNA NUEVA RAMA EL NOMBRE VA SIN COMILLAS
 git checkout -b "rama-v3"
 
--git checkout master
+
 
 // para escribir  -- i.     w = write q = salir ! = para realizarlo
 // para salir tecla_escape + :wq! para que lo cambie
