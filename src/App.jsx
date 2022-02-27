@@ -17,7 +17,7 @@ function App() {
   let subtitulo = 'Componentes'
   const saludar =() =>{
 
-    let num = 3000
+    let num = 12
     let num2 = num++
 
     console.log('HOLA CODERS',num2)
@@ -38,7 +38,7 @@ function App() {
 
       {/*
       <Titulo texto={text} subtitulo={subtitulo}/>
-      <BigCard ejecutar={saludar} />
+      <BigCard ejecutar={saludar} />x
       <div className='Color_Aqua' style={{backgroundColor:"green"}}>
       </div>
       */
