@@ -1,4 +1,4 @@
-//VERSION DE GIT
+//VERSION DE GIT ESTO ESTA EN LA RAMA V3
 git --version
 
 //git init --  para crear el contenido que necesita git para trabajar
@@ -22,6 +22,8 @@ git commit --amend
 
 //CREAMOS UNA NUEVA RAMA EL NOMBRE VA SIN COMILLAS
 git checkout -b "rama-v3"
+
+-git checkout master
 
 // para escribir  -- i.     w = write q = salir ! = para realizarlo
 // para salir tecla_escape + :wq! para que lo cambie
