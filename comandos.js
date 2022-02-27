@@ -40,12 +40,17 @@ git branch -d rama-v3
 
 //git pull
 git pull
-
+git
 //git push sirve para subir a gitub
 git push
 
-//sirve para subir la rama a github
+//sirve para subir la rama a github cuando no existe en github si ya existe solo con git push sube
 git push --set-upstream origin v3
+
+//si el archivo ya existe pero solo vamos a grabar cambios
+// a = agregar 0 add + m = mensaje
+git commit -am "agregado"
+
 
 // para escribir  -- i.     w = write q = salir ! = para realizarlo
 // para salir tecla_escape + :wq! para que lo cambie
