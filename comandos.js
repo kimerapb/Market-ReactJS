@@ -14,7 +14,7 @@ git reset .
 
 git commit -m "primer commit"
 
-// git checkout -- . -- restablece ultimo commit realizado
+// git checkout -- . -- restablece ultimo commit realizado recostruye
 git checkout -- .
 
 // parra arreglas el nombre del ultimo commit
@@ -27,7 +27,8 @@ git branch
 //CREAMOS UNA NUEVA RAMA EL NOMBRE VA SIN COMILLAS
 git checkout -b "rama-v3"
 
-
+// para cambiarse de rama  "rama" es la rama a donde voy a ir
+git checkout rama
 
 // para escribir  -- i.     w = write q = salir ! = para realizarlo
 // para salir tecla_escape + :wq! para que lo cambie
