@@ -17,7 +17,7 @@ function App() {
   let subtitulo = 'Componentes'
   const saludar =() =>{
 
-    let num = 12qwe
+    let num = 12
     let num2 = num++
 
     console.log('HOLA CODERS',num2)
