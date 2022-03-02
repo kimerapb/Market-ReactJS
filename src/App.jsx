@@ -7,32 +7,38 @@ import Titulo from './Components/Titulo';
 import BigCard from './Components/BigCard';
 import ComponenteContenedor from './Components/ComponenteContenedor';
 import Card from './Components/Card';
+import NavBar from './Components/NavBar';
 
 function App() {
 
+  /*
   let nombre =  "luis Eduardo Rodriguez"
 
   //muestros (estados de App)
   let text = 'Clase #3 de ReactJS'
   let subtitulo = 'Componentes'
   const saludar =() =>{
-
     let num = 12
     let num2 = num++
-
     console.log('HOLA CODERS',num2)
   }
+  */
 
   // Titulo('hola') == <Titulo texto='algo aqui' />
   return (
     <div className="App">
+
+<NavBar/>
       <header className="App-header" >
 
-      <ComponenteContenedor></ComponenteContenedor>
+
+
+      {/* <ComponenteContenedor></ComponenteContenedor>
 
       <Card>
         <Titulo/>
         </Card>
+      */}
 
       {/*<Titulo texto='Clase #4 de ReactJS' subtitulo='Componentes'/>*/}
 
