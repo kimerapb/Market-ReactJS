@@ -28,10 +28,8 @@ function App() {
   return (
     <div className="App">
 
-<NavBar/>
+      <NavBar/>
       <header className="App-header" >
-
-
 
       {/* <ComponenteContenedor></ComponenteContenedor>
 
@@ -48,8 +46,7 @@ function App() {
       <div className='Color_Aqua' style={{backgroundColor:"green"}}>
       </div>
       */
-      }
-
+      }   
 
         <img src={logo} className="App-logo" alt="logo" ></img>
         <p>           
